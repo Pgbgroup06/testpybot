@@ -23,4 +23,6 @@ def start(message):
         bot.send_message(user, "Hi")
    except:
         bot.send_message(message.chat.id, "This command having error pls wait for ficing the glitch by admin")
-        
+       
+if __name__ == '__main__':
+    bot.polling(none_stop=True) 
