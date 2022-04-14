@@ -21,19 +21,13 @@ def start(message):
         user = str(user)
         
         bot.send_message(user, "Hi")
+    if msg == '/info':
+        user = str(user)
+          bot.send_message(user, "Made By Pgbgroup")
    except:
         bot.send_message(message.chat.id, "This command having error pls wait for ficing the glitch by admin")
          
- @bot.message_handler(commands=['info'])
-def info(message):
-   try:
-    user = message.chat.id
-    msg = message.text
-    if msg == '/info':
-        user = str(user)
+ 
         
-        bot.send_message(user, "Made By Pgbgroup")
-   except:
-        bot.send_message(message.chat.id, "This command having error pls wait for ficing the glitch by admin")    
-if __name__ == '__main__':
-    bot.polling(none_stop=True) 
+       
+  
