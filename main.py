@@ -25,7 +25,7 @@ def start(message):
         bot.send_message(message.chat.id, "This command having error pls wait for ficing the glitch by admin")
          
  @bot.message_handler(commands=['info'])
-def start(message):
+def info(message):
    try:
     user = message.chat.id
     msg = message.text
