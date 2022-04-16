@@ -24,7 +24,9 @@ def start(message):
     if msg == '/info':
         user = str(user)
           bot.send_message(user, "Made By Pgbgroup")
-   
+            
+   if __name__ == '__main__':
+    bot.polling(none_stop=True)
          
  
         
