@@ -24,8 +24,7 @@ def start(message):
     if msg == '/info':
         user = str(user)
           bot.send_message(user, "Made By Pgbgroup")
-   except:
-        bot.send_message(message.chat.id, "This command having error pls wait for ficing the glitch by admin")
+   
          
  
         
